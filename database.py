@@ -101,10 +101,10 @@ class Database:
         self.execute(sql, (user_id, city_name), commit=True)
 
 
-db = Database(DB_NAME="n57_database",
+db = Database(DB_NAME="railway",
               DB_USER="root",
-              DB_PASSWORD="12345678",
-              DB_HOST="localhost",
+              DB_PASSWORD="THLlYRaJLHWYAfnIHyucjeXEuOUTsgMW",
+              DB_HOST="mysql.railway.internal",
               DB_PORT=3306)
 
 
