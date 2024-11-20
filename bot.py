@@ -57,7 +57,7 @@ async def save_city(call: CallbackQuery):
 
 
 async def main():
-    basicConfig(level=INFO)
+    # basicConfig(level=INFO)
     await dp.start_polling(bot)
 
 
